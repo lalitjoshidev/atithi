@@ -2039,3 +2039,76 @@ span.en, a.en {
         height: 50px;
     }
 }
+
+/* Introduction Section Mobile Styles */
+@media (max-width: 768px) {
+    #introduction {
+        padding: 4rem 1rem;
+    }
+
+    .intro-content {
+        padding: 0;
+        gap: 2rem;
+    }
+
+    .intro-text {
+        text-align: center;
+        width: 100%;
+    }
+
+    .intro-description {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        padding: 0 1rem;
+    }
+
+    .intro-description p {
+        margin-bottom: 1.5rem;
+    }
+
+    .intro-stats {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-top: 2rem;
+        padding: 0 1rem;
+    }
+
+    .stat-item {
+        padding: 1.5rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .stat-number {
+        font-size: 2rem;
+    }
+
+    .stat-label {
+        font-size: 0.9rem;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+        margin-bottom: 2rem;
+    }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+    #introduction {
+        padding: 3rem 1rem;
+    }
+
+    .intro-description {
+        font-size: 0.9rem;
+    }
+
+    .stat-item {
+        padding: 1rem;
+    }
+
+    .stat-number {
+        font-size: 1.8rem;
+    }
+}
